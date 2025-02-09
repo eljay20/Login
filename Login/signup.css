@@ -1,0 +1,157 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #1E3C72, #2A5298); /* Gradient background */
+}
+
+.signup-box {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background-color: white;
+    height: 600px;
+    padding: 25px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    border: 2px solid rgba(0, 0, 78, 0.6);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.signup-header {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.signup-header header {
+    font-size: 25px;
+    font-weight: 600;
+    color: #23486A;
+}
+
+.signup-box label {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    text-align: center; /* Ensures labels are centered */
+    margin-bottom: 5px;
+}
+
+.input-box .input-field {
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid lightgray;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input-box .input-field:focus {
+    border: 1px solid #3674B5;
+    box-shadow: 0px 0px 5px rgba(54, 116, 181, 0.5);
+}
+
+::placeholder {
+    font-weight: 400;
+    color: #555;
+}
+
+.signup-btn {
+    width: 100%;
+    height: 50px;
+    background: #3674B5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.signup-btn:hover {
+    background-color: #285a8c;
+}
+
+
+.loginfb-btn, .logingoogle-btn {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+    border: none;
+}
+
+.loginfb-btn {
+    background: #23486A;
+    color: white;
+}
+
+.loginfb-btn:hover {
+    background: white;
+}
+
+.logingoogle-btn {
+    background: lightgray;
+    color: black;
+    border: 1px solid black;
+}
+
+.logingoogle-btn:hover {
+    background: #e0e0e0;
+}
+
+
+.loginfb-btn img {
+    width: 45px;
+    height: 30px;
+    position: absolute;
+    left: 8px; 
+}
+.logingoogle-btn img {
+    width: 30px;
+    height: 25px;
+    position: absolute;
+    left: 15px; 
+}
+
+.sign-up-link {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.sign-up-link a {
+    color: #3674B5;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.sign-up-link a:hover {
+    text-decoration: underline;
+}
+.loginfb-btn label{
+    color: white ;
+}
