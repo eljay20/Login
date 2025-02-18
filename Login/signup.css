@@ -109,7 +109,7 @@ body {
 }
 
 .loginfb-btn:hover {
-    background: white;
+    background: darkblue;
 }
 
 .logingoogle-btn {
@@ -119,10 +119,8 @@ body {
 }
 
 .logingoogle-btn:hover {
-    background: #e0e0e0;
+    background: #A9B5DF;
 }
-
-
 .loginfb-btn img {
     width: 45px;
     height: 30px;
